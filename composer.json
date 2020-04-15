@@ -1,0 +1,19 @@
+{
+    "name": "imtiaz/contact",
+    "description": "This is an Extra Contact Package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Imtiaz Khandoker",
+            "email": "info@softthreat.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Imtiaz\\Contact\\": "package/contact/src/"
+        }
+    }
+}
